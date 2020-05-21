@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contacto Abrapalabra</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1>ABRAPALABRA</h1>
+      <nav class="navbar">
+        <ul id="mainnav">
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./libros.html">Libros</a></li>
+          <li><a href="./cursos.html">Cursos</a></li>
+          <li><a href="./about.html">Sobre Héctor Anaya</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="left-side">
+        <h3>Contacto</h3>
+        <p>Para contactar a Héctor Anaya rellene la forma de la derecha o escriba un correo a: <span class="mail">abrapalabra1331@gmail.com</span>. Para solicitar información sobre venta de libros o cursos puede llamar al <span class="phone">5553-2525</span>.</p>
+      </section>
+      <section class="right-side">
+        <div class="formy">
+          <form action="" method="post">
+            <label for="nombre">Nombre(s)</label>
+            <input type="text" id=nombre name="nombre" placeholder="Su Nombre">
+            <label for="lname">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Sus Apellidos">
+            <label for="asunto">Asunto</label>
+            <select id="asunto" name="asunto">
+              <option value="libros">Libros</option>
+              <option value="cursos">Cursos</option>
+              <option value="otro">Otro</option>
+            </select>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escriba su mensaje" style="height:200px"></textarea>
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

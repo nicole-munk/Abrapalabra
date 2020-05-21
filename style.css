@@ -1,0 +1,149 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  background-image: url(/imgs/background.jpg);
+  background-size: 300px 100px;
+  color: darkslategrey;
+}
+
+body {
+  background-color: beige;
+  font-family: Georgia;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#mainnav {
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (darkslatergray) on hover */
+li a:hover {
+  background-color: darkslategray;
+}
+
+.bienvenida, .container{
+  display: flex;
+}
+
+.bienvenidatext, .infohec{
+  width: 65%;
+  position: relative;
+}
+
+.imgbienvenida, .hec1{
+  width: 35%;
+}
+
+h3{
+  color:darkslategray;
+}
+
+hr{
+  border-top: 20px dashed darkslatergray; 
+}
+
+.listalibros li{
+  padding-right: 80px;
+  padding-left: 25px;
+}
+
+
+.librostitulo, .vermas{
+  display: block;
+}
+
+.libro{
+  color: black;
+}
+
+.libro:hover{
+  background-color: lightgray;
+}
+
+.vermas{
+  text-align: right;
+}
+
+#heroesrev{
+  padding-left: 15px; 
+}
+
+.left-side{
+  width: 50%;
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.right-side{
+  width: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.librobio{
+  color:darkslategray;
+  font-weight: bold;
+}
+
+.maesen{
+  color:white;
+  background-color: black;
+}
+
+.hecbioimg{
+  padding-left: 75px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.formy {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
